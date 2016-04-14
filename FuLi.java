@@ -256,8 +256,6 @@ public class FuLi extends JFrame {
 				frame.setLocationRelativeTo(null);
 				frame.setVisible(true);
 				System.out.println("本金\t  年利率比\t  存入年限\t  复利次数\t  复利终值\t  投资回报\t  还款金额");
-
-				
 			}
 		});
 	}
@@ -307,7 +305,6 @@ public class FuLi extends JFrame {
 			JOptionPane.showMessageDialog(null, "还款金额为：  "+num6, "求还款金额", JOptionPane.CLOSED_OPTION);
 		}
 	}
-
 	private void jButton1MouseMouseClicked(MouseEvent event) {
 		this.setVisible(false);
 		JFrame jf=new JFrame("计算窗口");
@@ -315,7 +312,6 @@ public class FuLi extends JFrame {
 		jf.setDefaultCloseOperation(jf.EXIT_ON_CLOSE);
 		jf.setVisible(true);
 	}
-	
-
 }
+
 
